@@ -1,1 +1,1 @@
-web: gunicorn {{ dubilap }}.wsgi --log-file -
+web: gunicorn dubilap.wsgi --log-file -
